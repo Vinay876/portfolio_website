@@ -1,0 +1,49 @@
+.google-button {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:transparent;
+    color: white;
+    border:2px solid #ffd700;
+    width:30rem;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .google-button__text {
+    transition: transform 0.3s;
+    color: #ffd700;
+
+  }
+  
+  .google-button:hover .google-button__text {
+    transform: translateX(5px);
+  }
+  
+  .google-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: left 0.3s;
+  }
+  
+  .google-button:hover::before {
+    left: 0;
+  }
+  @media screen and (max-width:1200px) {
+    .google-button{
+      width:30rem;
+      font-size: 18px;
+      padding:8px 24px;
+      top:20rem;
+    }
+  }

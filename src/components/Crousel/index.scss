@@ -1,0 +1,121 @@
+// .maincontainer{
+//     display: flex;
+//     width:100%;
+//     height:100vh;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+
+
+
+.crousel-box {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 70px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    box-shadow: 0px 0px 6px 5px rgba(246, 245, 40, 0.57);
+    -webkit-box-shadow: 0px 0px 6px 5px rgba(246, 245, 40, 0.57);
+    -moz-box-shadow: 0px 0px 6px 5px rgba(246, 245, 40, 0.57);
+}
+
+.crousel-box::-webkit-scrollbar {
+    display: none;
+}
+
+.imagebox {
+    background-color: rgb(28, 81, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px
+}
+
+.images {
+    cursor: pointer;
+    width: 280px;
+    height: 280px;
+    -webkit-filter: blur(0px);
+    filter: blur(1.5px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+
+}
+
+.images:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.gallery_text {
+    position: absolute;
+    color: #ffd700;
+    margin-left: 68%;
+    font-size: 28px;
+    cursor: pointer;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    top: 14px;
+}
+
+.gallery_text:hover {
+    color: white;
+    transition: .4s ease-in-out;
+}
+
+@media screen and (max-width:1200px) {
+    .crousel-box {
+        right: 0;
+        margin-right: 90px;
+        margin-top: 90px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .gallery_text {
+        margin-left: 40%;
+        top: 43rem;
+    }
+
+    .images {
+        cursor: pointer;
+        width: 230px;
+        height: 230px;
+    }
+
+    .imagebox {
+        width: 250px;
+        height: 250px
+    }
+}
+
+@media screen and (max-width:650px) {
+    .crousel-box {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gallery_text {
+        margin-left: 32%;
+        top: 51rem;
+    }
+
+    .images {
+        cursor: pointer;
+        width: 270px;
+        height: 270px;
+
+    }
+
+    .imagebox {
+        width: 100%;
+        height: 100%;
+    }
+}

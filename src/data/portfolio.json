@@ -1,0 +1,40 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/News Website.png",
+            "title": "News Website",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/TextEditor.png",
+            "title": "TextEditor",
+            "description": "React, JSX, Tailwind,",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/Wordle.png",
+            "title": "Wordle",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/News Website.png",
+            "title": "News Website",
+            "description": "React, JSX, Tailwind,",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/TextEditor.png",
+            "title": "TextEditor",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/Wordle.png",
+            "title": "Wordle",
+            "description": "React, JSX, Tailwind",
+            "url": "http://google.com"
+        }
+    ]
+}

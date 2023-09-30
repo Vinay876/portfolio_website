@@ -30,11 +30,13 @@ const Welcome = () => {
       });
     setUser(token)
     localStorage.setItem('user', JSON.stringify(token))
+    window.location.reload()
   }
 
   useEffect(() => {
     if (localStorage.getItem('user') || '')
       setUser(localStorage.getItem('user'))
+    
   }, [])
   return (
     <div>

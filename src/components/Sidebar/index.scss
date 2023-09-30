@@ -60,7 +60,8 @@
 
             &:after {
                 content: '';
-                font-size: 9px;
+                font-size: 12px;
+             
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -190,4 +191,12 @@
         
     }
     }
+}
+@media screen and (max-width:1080px) {
+.Topbar{
+    background-color: #021b29;
+    -webkit-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.59);
+box-shadow: 1px 5px 9px 0px rgba(0,0,0,0.59);
+}    
 }

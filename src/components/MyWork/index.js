@@ -5,11 +5,10 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import portfolioData from "../../data/portfolio.json"
 import Layout from '../Layout'
+import { portfolioDataa } from '../../data/data'
 
 const Mywork = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  console.log(portfolioData);
-
 
 
   function animated() {
@@ -48,7 +47,7 @@ const Mywork = () => {
                     onClick={() => window.open(port.url)}
                   >View</button>
                 </div>
-              </div>
+              </div> 
 
             )
           })
@@ -69,7 +68,7 @@ const Mywork = () => {
             strArray={['M', 'y', ' ', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
             idx={15} />
         </h1>
-        <div>{renderPortfolio(portfolioData)}</div>
+        <div>{renderPortfolio(portfolioDataa)}</div>
       </div>
 
       <Loader type="pacman" />

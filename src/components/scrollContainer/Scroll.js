@@ -22,17 +22,18 @@ const Scroll = () => {
       style={{
         display: 'flex',
         justifyContent: 'center',
-        minHeight: '100vh',
+        // minHeight: '100vh',
         alignItems: 'center',
       }}
-      className=" flex items-center min-h-screen justify-center"
+      className="FirstDiv"
     >
       {/* 1. */}
       <div
+        className="SecondDiv"
         style={{
           width: '40%',
           height: '12rem',
-          marginTop: '23%',
+          // marginTop: '23%',
           overflow: 'hidden',
           position: 'relative',
         }}

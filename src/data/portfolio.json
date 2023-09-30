@@ -1,7 +1,7 @@
 {
-    "portfolio": [
+    "portfolio": [  
         {
-            "cover": "/portfolio/News Website.png",
+            "cover": "../assets/Projects/ToDo.png",
             "title": "News Website",
             "description": "React, JSX, Tailwind",
             "url": "http://google.com"

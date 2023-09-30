@@ -37,22 +37,25 @@ const Skill = () => {
           <span  style={{color:'#ffd700'}}>CSS3</span>
           ","
           <span  style={{color:'#ffd700'}}>JavaScript</span>
-          "," 
-          <span  style={{color:'#ffd700'}}>React</span>
+          ","
+          <span  style={{color:'#ffd700'}}>ReactJS</span>
+          ",<br/>"
+          <span  style={{color:'#ffd700'}}>NextJS</span>
           ","
           <span  style={{color:'#ffd700'}}>TypeScript</span>
           ","
           <span  style={{color:'#ffd700'}}>Bootstrap</span>
           ","
           <span  style={{color:'#ffd700'}}>Sass</span>
+          ",<br />"
+          <span  style={{color:'#ffd700'}}>Animations</span>
           ","
-          <span  style={{color:'#ffd700'}}>Git</span>
-          ", etc."
+          <span  style={{color:'#ffd700'}}>Tailwind</span>
    
           </p>
           <p>
-          I'm not a designer but I have a good sense of aesthetics, and
-            experience in responsive, mobile-first web design. I put special
+          I'm a designer and I have a good sense of aesthetics, and
+            experience in responsive web design. I put special
             effort into optimizing my code and providing the best user
             experience. I would love to give you any kind of support also after
             the project's completion. I guarantee a commitment during work on
@@ -61,8 +64,8 @@ const Skill = () => {
           
           <p>  
           Visit my 
-          "<a href="https://www.linkedin.com/in/vinay-singh-102659235/" target='_blank'  style={{color:'#ffd700'}}>Linkdin</a>"
-          profile for more details. Also you can checkout my cv on this"<a href="/" target='_blank' style={{color:'#ffd700'}}>link</a> "</p><br /><br />
+          "<a href="https://www.linkedin.com/in/vinay-singh-102659235/" target='_blank'  style={{color:'#ffd700'}}>Linkedin</a>"
+          profile for more details. Also you can checkout "<a href="/" target='_blank' style={{color:'#ffd700'}}>My CV</a> "</p><br /><br />
       </div>
       <Scroll />
     </div>

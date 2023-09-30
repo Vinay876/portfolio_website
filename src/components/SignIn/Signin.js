@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import { TypeAnimation } from 'react-type-animation';
@@ -7,6 +7,7 @@ import './sigin.css'
 
 
 function Signin({ handleClick }) {
+  
   const optionsForParticles = {
     autoPlay: true,
     background: {
@@ -600,6 +601,9 @@ function Signin({ handleClick }) {
     await loadFull(engine);
   }, []);
 
+  
+
+  
   const particlesLoaded = useCallback(async (container) => { }, []);
 
   return (
@@ -612,35 +616,32 @@ function Signin({ handleClick }) {
         loaded={particlesLoaded}
         options={optionsForParticles}
       />
-      <div style={{
-        display: 'flex', justifyContent: "center", alignItems: "center",
-        textAlign: "center", width: "100%", height: "90vh"
-      }}>
+      <div style={{ display: 'grid', placeItems: 'center', marginTop: '120px' }}>
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
-            'Welcom To My Protfolio',
+            'Welcome To My Portfolio',
             3000, // wait 1s before replacing "Mice" with "Hamsters"
             `I'm a Web Developer`,
             1000,
             `I'm a UI/Ux Designer`,
-            1000,
-            `I'm a Data Scientist`,
-            1000,
+            1000
           ]}
           wrapper="span"
           speed={50}
           style={{
             color: '#ffd700',
-            fontSize: "7rem",
-            borderBottom:'5px solid yellow'
+            fontSize: "6rem",
+            textAlign: 'center'
+
           }}
           repeat={Infinity}
         />
-      <button onClick={handleClick} class="google-button" style={{marginTop:'250px',position:'fixed'}}>
-        <span class="google-button__text">Sign in with Google</span>
-        <img src={gmail} alt="" style={{width:'50px',height:'50px'}} />
-      </button>
+        <button onClick={handleClick} class="google-button" style={{ marginTop: '140px', position: 'fixed' }}>
+          <span class="google-button__text">Sign in with Google</span>
+          <img src={gmail} alt="" style={{ width: '50px', height: '50px' }} />
+        </button>
+        <div className='refres'></div>
       </div>
     </>
   )

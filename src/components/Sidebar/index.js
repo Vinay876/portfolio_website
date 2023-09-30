@@ -12,7 +12,7 @@ import { faGithub, faInstagram, faLinkedin, faTwitter, } from '@fortawesome/free
 const Sidebar = () => {
     const [showNav, setShowNav] = React.useState(false);
     return (
-        <div>
+        <div className='Topbar'>
             <div className='nav-bar'>
                 <Link className='logo' to='/'>
                     <img src={Logos} alt="logo" />
